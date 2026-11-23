@@ -26,7 +26,7 @@ A small, fast **Bijoy-style Bangla typing engine for Windows**. It sits in a thi
 
 ## Download
 
-Get the latest ready-to-run build from the [**Releases**](https://github.com/YummyCyanide/Bangla-Keyboard/releases/latest) page.
+Get the latest ready-to-run build from the [**Releases**](https://github.com/YummyCyanide/Bangla-Keyboard-Public/releases) page.
 
 1. Download **Bangla Keyboard vX.X.X.exe** (or the `.zip`, if one is attached, and extract it first).
 2. Run it. The bar and tray icon appear. No installation needed.
