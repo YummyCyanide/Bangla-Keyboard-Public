@@ -16,11 +16,9 @@ A small, fast **Bijoy-style Bangla typing engine for Windows**. It sits in a thi
 - [Requirements](#requirements)
 - [How to Use](#how-to-use)
 - [Folder Structure](#folder-structure)
-- [Uninstall / Clear Everything](#uninstall--clear-everything)
 - [License](#license)
 - [Disclaimer](#disclaimer)
 - [Credits](#credits)
-- [Notes for using it as your main typing program](#notes-for-using-it-as-your-main-typing-program)
 
 ---
 
