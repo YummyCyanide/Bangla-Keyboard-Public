@@ -126,7 +126,7 @@ The `Library` folder holds two kinds of encoding files:
 
 Use a **Table** for ordinary conversion and a **Script** when you need more control. In **Text Converter**, *Settings > Encodings in the toolbar list* picks what the dropdown shows (*Encoding Table*, *Encoding Script* or *Table Plus Script*; with both, names start with `Script:` or `Table:`). **Docs Converter** always lists everything with the same tags.
 
-**Adding an encoding:** drop a `.json` or `.menc` file into `Library\Encoding Script` and restart. It is listed in the Encoding menu automatically. If a `.menc` and a `.json` share a name, the `.menc` is used.
+**Adding an encoding:** drop a `.json` file into `Library\Encoding Script` and restart. It is listed in the Encoding menu automatically.
 
 **Extra buttons:** in **Settings > TopBar Theme**, tick a button, choose the Tools program it starts and its icon. The [+] styles have two buttons; Avro Flat [+] and Avro Classic [+] have three. The built-in icons are grouped by tool (Docs, Text, Layout, Note); "App icon" keeps the skin's own picture in the Avro styles. For your own, put pictures in `Skins\Button Icons`, reopen Settings, then pick the file name from the icon list.
 
@@ -190,7 +190,6 @@ The source code of this project is released under the **[GNU General Public Lice
 - This project is **only a core engine**. **No paid, commercial or licensed fonts are included or distributed.** Please obtain any fonts you need legally from their owners.
 - All related names, designs and trademarks belong to their respective owners. This project is **not affiliated with or endorsed by** them.
 - **I do not sell this app.** That is exactly why it is open source and free. Please do not sell or repackage it as a paid product.
-- `.bkl` and `.een` files are only lightly scrambled to prevent accidental changes. They are **not secure encryption**.
 - Provided **as is**, without warranty. Use at your own risk, and keep backups of important documents before bulk-converting them.
 
 ---
