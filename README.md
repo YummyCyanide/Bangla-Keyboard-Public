@@ -76,17 +76,9 @@ Open the tools from the tray menu, or assign them to the bar's extra buttons (**
 ## Requirements
 
 - Windows (uses Windows APIs, tray, RichEdit and Office COM)
-- [AutoHotkey v2](https://www.autohotkey.com/) (the portable exe is fine). **Only needed to run from source** (`.ahk` files); the compiled release exe does not need it. Any tool in the `Tools` folder that is still an `.ahk` script also needs it.
+- [AutoHotkey v2](https://www.autohotkey.com/) (the portable exe is fine).
 - A Bangla font of your choice. Unicode layouts work with fonts like *Nirmala UI* (built into Windows). ANSI layouts (Bijoy Classic) need a matching ANSI font such as SutonnyMJ, which you must obtain yourself.
-- Microsoft Office / WPS / LibreOffice is only needed for the automatic-font feature and for converting `.doc`, `.ppt` and similar older formats.
 - The **Performance Helper** (`Performance Helper.ahk`) must stay next to `Bangla Keyboard.ahk`. It starts by itself and needs AutoHotkey v2 too when you run from source.
-
-### System requirements for Pupo Encrypter
-
-- Windows 10 or 11 (Windows 7 or later also works with AutoHotkey v2).
-- [AutoHotkey v2](https://www.autohotkey.com/) to run `Pupo Encrypter.ahk` from source. A compiled exe needs nothing installed.
-- A screen of at least 800 x 600; the window is resizable.
-- Almost no resources: a few MB of memory and no extra disk space beyond the files you convert. No internet, no Office and no administrator rights.
 
 ---
 
@@ -94,6 +86,7 @@ Open the tools from the tray menu, or assign them to the bar's extra buttons (**
 
 *(Running from source. If you downloaded the exe from Releases, just run it.)*
 
+0. Just install the installer, else...
 1. Install AutoHotkey v2.
 2. Download / clone this repo and keep the folder structure intact.
 3. Double-click **`Bangla Keyboard.ahk`**. The bar and tray icon appear.
@@ -137,7 +130,7 @@ Use a **Table** for ordinary conversion and a **Script** when you need more cont
 ```
 Bangla Keyboard/
 ├── Bangla Keyboard.ahk      Main program
-├── Performance Helper.ahk   Restarts the program if it ever stops unexpectedly (started automatically)
+├── Performance Helper.ahk   Restarts the program if it ever stops unexpectedly
 ├── README.md
 ├── LICENSE
 ├── Icons/                   Layout icons
@@ -146,7 +139,7 @@ Bangla Keyboard/
 │   ├── Encoding Script/     Encoding files (.json): Unicode typing converted to ANSI
 │   └── Encoding Table/      Mapping tables for the converters (.txt)
 ├── Skins/                   Bar skins and Button Icons; your own skins go here too
-│   └── _Template/      Starting point for your own bar skin (a copy of Bijoy Ekattor)
+│   └── _Template/      Starting point for your own bar skin
 ├── Splash/                  Splash screen images (png / jpg / bmp)
 ├── Tools/
 │   ├── Docs Converter.ahk
@@ -160,20 +153,6 @@ Bangla Keyboard/
 │   ├── On Screen KB.ahk
 │   └── Emoji Picker Data/   Emoji pictures and lists for the Emoji Picker
 ```
-
----
-
-## Uninstall / Clear Everything
-
-There is no installer, so removal is manual:
-
-1. Right-click the tray icon > **Exit**. The Performance Helper closes by itself a moment later (if it still shows in Task Manager, end it there before deleting the folder).
-2. If you enabled *Start with Windows*, untick it in **Settings > General** first, or delete `Bangla Keyboard.lnk` from the Startup folder (`Win + R` > `shell:startup`).
-3. Delete the program folder.
-4. Delete saved settings: `%AppData%\Bangla Keyboard` (`Win + R`, paste the path).
-5. Optional: delete the temp file `%Temp%\BanglaKeyboard_tray.ico`.
-
-To only **reset settings**, press **Reset** in each Settings tab, or delete the `%AppData%\Bangla Keyboard` folder. Defaults are restored on next launch. Nothing is written to the registry.
 
 ---
 
@@ -197,51 +176,6 @@ The source code of this project is released under the **[GNU General Public Lice
 ## Credits
 
 Made by **Sherlock Holmes**, with the assistance of AI.
-
 Issues and suggestions are welcome.
 
 ---
-
-## Notes for using it as your main typing program
-
-Bangla Keyboard is light and fast, and many people use it all day. But it is an AutoHotkey program, not a Windows input method (IME), and that has limits. Read these before you depend on it, so nothing surprises you in the middle of important work.
-
-**1. Programs that run as administrator do not accept the typing.**
-Windows does not let a normal program send keys into an administrator window (Task Manager, Registry Editor, an administrator Command Prompt, many installers, some accounting or office software that asks for "Run as administrator"). Nothing is shown; the keys just do not arrive.
-What to do: the simple way is to start Bangla Keyboard as administrator too. To avoid the "Yes / No" window every time, create a task in Windows **Task Scheduler** that runs Bangla Keyboard **at log on** with **"Run with highest privileges"**, and untick *Start with Windows* in Settings > General (its startup shortcut cannot run as administrator silently). The price: the program and the tools you start from it then run with administrator rights, and dragging files into it from a normal Explorer window may stop working. An advanced option is a signed "UI access" build kept in `Program Files`; it types into administrator windows without running as administrator, but it needs set-up and is not included here.
-
-**2. Secure Windows screens cannot be typed into.**
-The "Yes / No" permission window (UAC), the lock screen, the sign-in screen and the Ctrl + Alt + Del screen are protected by Windows. No Bangla typing program can work there. Use English, or the on-screen keyboard of Windows, for passwords typed there.
-
-**3. Remote Desktop, virtual machines and games.**
-Keys sent by Bangla Keyboard may be blocked, arrive as English letters, or be ignored inside Remote Desktop, virtual machines, Citrix-type windows and many games. Some games with anti-cheat protection also dislike any program that sends keys. Switch Bangla off there (see *Mode switching* in Settings > General, so each program can keep its own mode), or use the keyboard set-up of the remote machine.
-
-**4. It is not a Windows IME.**
-There is no underlined "composition" text and no candidate list. The program sends the finished letters. Most programs work perfectly, but a few ignore, delay or reorder such text: some older Java or Swing programs, some terminal windows, some CAD and ERP programs, and some Store (UWP) or web-based input boxes. Test the programs you use every day before you trust it.
-
-**5. Avro Phonetic rewrites what you just typed.**
-While you type a word, Avro replaces the last letters with better ones. Auto-complete and auto-correct (Word AutoCorrect, the browser address bar, Excel AutoComplete, chat suggestions) can get in the way, **Ctrl + Z** may undo in small steps, and on a very slow program fast typing may look garbled for a moment. Finish a word with **Space** and keep the cursor where it is until the word is done. The Bijoy-style layouts type each letter directly and do not have this problem.
-
-**6. A very busy or old PC.**
-When the CPU is at 100 % (video rendering, big exports) or memory is nearly full, Windows may deliver keys late. The program is light and runs at a higher priority, but it cannot beat a frozen computer. Close heavy programs first, or give the machine more memory.
-
-**7. If the program stops, typing stops.**
-The Performance Helper starts Bangla Keyboard again after a crash or a kill, but it cannot tell that a program is frozen while it is still running. If the bar is on screen but nothing types, choose **Exit** from the tray menu and start it again, then look at `%AppData%\Bangla Keyboard\error.log`. The helper gives up after 3 restarts within 2 minutes, and shows a message when it does.
-
-**8. Other keyboard software can clash.**
-Another Bangla keyboard (Avro, Bijoy, Keyman), other AutoHotkey scripts, the software of a gaming keyboard, and the Windows language switch (Alt + Shift, Win + Space) can grab the same keys. Use one at a time, and change the shortcut keys in **Settings > Layouts (all)** if two programs use the same ones.
-
-**9. Security software.**
-A program that watches the keyboard and sends keys looks like a keylogger to some antivirus tools and company policies, and an exe built with AutoHotkey is often flagged by mistake. If it is blocked or quarantined, add an exclusion for its folder. The scripts in this package contain no network code, so what you type does not leave your computer, and you can read the source to check.
-
-**10. ANSI text versus Unicode text.**
-Bijoy Classic (ANSI) needs a matching ANSI font that is not included, and ANSI text pasted into a Unicode program (or the other way round) shows as garbage until it is converted (use **Text Converter** or **Docs Converter**). Unicode text depends on the program and the font to draw conjuncts correctly: older Office versions and some web forms may show them badly.
-
-**11. Each window remembers its own mode.**
-If you use *Per Application/Window* mode, a program that opens a new window or dialog may start it in the default mode. Look at the bar before you start typing in a new window.
-
-**12. Good habits.**
-- Keep *Start with Windows* and the Performance Helper switched on.
-- Back up `%AppData%\Bangla Keyboard` now and then (your settings, snippets and layout choices).
-- When you update, replace the program folder and keep your own layouts, skins and encodings aside; test the new version for a day before relying on it.
-- If something goes wrong, `error.log` and `helper.log` in `%AppData%\Bangla Keyboard` tell what happened; send them with your report.
