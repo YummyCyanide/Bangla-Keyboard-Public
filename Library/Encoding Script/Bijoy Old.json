@@ -1,0 +1,2004 @@
+{
+    "Metadata": {
+        "Encoding": "Bijoy Old (ANSI V1)",
+        "Type": "ANSI Encoding",
+        "Version": "1.2",
+        "Company": "Ananda Computers",
+        "Developer": "Mustafa Jabbar",
+        "Modified By": "Rasel Rahman & Sherlock Holmes",
+        "Suggested Font": "Kalpurush ANSI, Siyam Rupali ANSI & Bijoy 2003 (Old) Fonts"
+    },
+    "Constants": {
+        "Numbers": {
+            "A_0": {
+                "Unicode": "#$09E6",
+                "Replace": "#$0030",
+                "Comment": "০"
+            },
+            "A_1": {
+                "Unicode": "#$09E7",
+                "Replace": "#$0031",
+                "Comment": "১"
+            },
+            "A_2": {
+                "Unicode": "#$09E8",
+                "Replace": "#$0032",
+                "Comment": "২"
+            },
+            "A_3": {
+                "Unicode": "#$09E9",
+                "Replace": "#$0033",
+                "Comment": "৩"
+            },
+            "A_4": {
+                "Unicode": "#$09EA",
+                "Replace": "#$0034",
+                "Comment": "৪"
+            },
+            "A_5": {
+                "Unicode": "#$09EB",
+                "Replace": "#$0035",
+                "Comment": "৫"
+            },
+            "A_6": {
+                "Unicode": "#$09EC",
+                "Replace": "#$0036",
+                "Comment": "৬"
+            },
+            "A_7": {
+                "Unicode": "#$09ED",
+                "Replace": "#$0037",
+                "Comment": "৭"
+            },
+            "A_8": {
+                "Unicode": "#$09EE",
+                "Replace": "#$0038",
+                "Comment": "৮"
+            },
+            "A_9": {
+                "Unicode": "#$09EF",
+                "Replace": "#$0039",
+                "Comment": "৯"
+            }
+        },
+        "VowelsAndKars": {
+            "A_A": {
+                "Unicode": "#$0985",
+                "Replace": "#$0041",
+                "Comment": "অ"
+            },
+            "A_AA": {
+                "Unicode": "#$0986",
+                "Replace": "#$0041#$0076",
+                "Comment": "আ"
+            },
+            "A_AAKar": {
+                "Unicode": "#$09BE",
+                "Replace": "#$0076",
+                "Comment": "া (আ-কার)"
+            },
+            "A_I": {
+                "Unicode": "#$0987",
+                "Replace": "#$0042",
+                "Comment": "ই"
+            },
+            "A_IKar": {
+                "Unicode": "#$09BF",
+                "Replace": "#$0077",
+                "Comment": "ি (ই-কার)"
+            },
+            "A_II": {
+                "Unicode": "#$0988",
+                "Replace": "#$0043",
+                "Comment": "ঈ"
+            },
+            "A_IIKar": {
+                "Unicode": "#$09C0",
+                "Replace": "#$0078",
+                "Comment": "ী (ঈ-কার)"
+            },
+            "A_U": {
+                "Unicode": "#$0989",
+                "Replace": "#$0044",
+                "Comment": "উ"
+            },
+            "A_UKar2": {
+                "Unicode": "#$09C1",
+                "Replace": "#$0079",
+                "Comment": "ু (উ-কার ২ - ঝুলন্ত)"
+            },
+            "A_UKar1": {
+                "Unicode": "#$09C1",
+                "Replace": "#$007A",
+                "Comment": "ু (উ-কার ১ - সাধারণ)"
+            },
+            "A_UKar3": {
+                "Unicode": "#$09C1",
+                "Replace": "#$2013",
+                "Comment": "ু (উ-কার ৩ - ড়ু/ঢ়ু)"
+            },
+            "A_UKar4": {
+                "Unicode": "#$09C1",
+                "Replace": "#$201C",
+                "Comment": "ু (উ-কার ৪ - রু)"
+            },
+            "A_UU": {
+                "Unicode": "#$098A",
+                "Replace": "#$0045",
+                "Comment": "ঊ"
+            },
+            "A_UUKar2": {
+                "Unicode": "#$09C2",
+                "Replace": "#$007E",
+                "Comment": "ূ (ঊ-কার ২ - ঝুলন্ত)"
+            },
+            "A_UUKar1": {
+                "Unicode": "#$09C2",
+                "Replace": "#$201A",
+                "Comment": "ূ (ঊ-কার ১ - সাধারণ)"
+            },
+            "A_UUKar3": {
+                "Unicode": "#$09C2",
+                "Replace": "#$0192",
+                "Comment": "ূ (ঊ-কার ৩ - রূ)"
+            },
+            "A_RRI": {
+                "Unicode": "#$098B",
+                "Replace": "#$0046",
+                "Comment": "ঋ"
+            },
+            "A_RRIKar1": {
+                "Unicode": "#$09C3",
+                "Replace": "#$2026",
+                "Comment": "ৃ (ঋ-কার ১ - সাধারণ)"
+            },
+            "A_RRIKar2": {
+                "Unicode": "#$09C3",
+                "Replace": "#$201E",
+                "Comment": "ৃ (ঋ-কার ২ - ঝুলন্ত)"
+            },
+            "A_E": {
+                "Unicode": "#$098F",
+                "Replace": "#$0047",
+                "Comment": "এ"
+            },
+            "A_EKar1": {
+                "Unicode": "#$09C7",
+                "Replace": "#$2020",
+                "Comment": "ে (এ-কার ১ - সাধারণ)"
+            },
+            "A_EKar2": {
+                "Unicode": "#$09C7",
+                "Replace": "#$2021",
+                "Comment": "ে (এ-কার ২ - ঝুলন্ত)"
+            },
+            "A_OI": {
+                "Unicode": "#$0990",
+                "Replace": "#$0048",
+                "Comment": "ঐ"
+            },
+            "A_OIKar1": {
+                "Unicode": "#$09C8",
+                "Replace": "#$02C6",
+                "Comment": "ৈ (ঐ-কার ১ - সাধারণ)"
+            },
+            "A_OIKar2": {
+                "Unicode": "#$09C8",
+                "Replace": "#$2030",
+                "Comment": "ৈ (ঐ-কার ২ - ঝুলন্ত)"
+            },
+            "A_O": {
+                "Unicode": "#$0993",
+                "Replace": "#$0049",
+                "Comment": "ও"
+            },
+            "A_OU": {
+                "Unicode": "#$0994",
+                "Replace": "#$004A",
+                "Comment": "ঔ"
+            },
+            "A_OUKar": {
+                "Unicode": "#$09CC",
+                "Replace": "#$0160",
+                "Comment": "ৌ (ঔ-কার)"
+            }
+        },
+        "Symbols": {
+            "A_Taka": {
+                "Unicode": "#$09F3",
+                "Replace": "#$0024",
+                "Comment": "৳ (টাকা)"
+            },
+            "A_Dari": {
+                "Unicode": "#$0964",
+                "Replace": "#$007C",
+                "Comment": "। (দাঁড়ি)"
+            },
+            "A_DoubleDanda": {
+                "Unicode": "#$0965",
+                "Replace": "#$005C",
+                "Comment": "॥ (দ্বিত্ব দাঁড়ি)"
+            },
+            "A_Hasanta": {
+                "Unicode": "#$09CD",
+                "Replace": "#$0026",
+                "Comment": "্ (হসন্ত)"
+            },
+            "A_StartDoubleQuote": {
+                "Unicode": "#$0022",
+                "Replace": "#$00D2",
+                "Comment": "ডাবল (উদ্ধৃতি শুরু)"
+            },
+            "A_EndDoubleQuote": {
+                "Unicode": "#$0022",
+                "Replace": "#$00D3",
+                "Comment": "ডাবল (উদ্ধৃতি শেষ)"
+            },
+            "A_StartSingleQuote": {
+                "Unicode": "#$0027",
+                "Replace": "#$00D4",
+                "Comment": "' (একক উদ্ধৃতি শুরু)"
+            },
+            "A_EndSingleQuote": {
+                "Unicode": "#$0027",
+                "Replace": "#$00D5",
+                "Comment": "' (একক উদ্ধৃতি শেষ)"
+            }
+        },
+        "Consonants": {
+            "A_K": {
+                "Unicode": "#$0995",
+                "Replace": "#$004B",
+                "Comment": "ক"
+            },
+            "A_Kh": {
+                "Unicode": "#$0996",
+                "Replace": "#$004C",
+                "Comment": "খ"
+            },
+            "A_G": {
+                "Unicode": "#$0997",
+                "Replace": "#$004D",
+                "Comment": "গ"
+            },
+            "A_Gh": {
+                "Unicode": "#$0998",
+                "Replace": "#$004E",
+                "Comment": "ঘ"
+            },
+            "A_NGA": {
+                "Unicode": "#$0999",
+                "Replace": "#$004F",
+                "Comment": "ঙ"
+            },
+            "A_C": {
+                "Unicode": "#$099A",
+                "Replace": "#$0050",
+                "Comment": "চ"
+            },
+            "A_Ch": {
+                "Unicode": "#$099B",
+                "Replace": "#$0051",
+                "Comment": "ছ"
+            },
+            "A_J": {
+                "Unicode": "#$099C",
+                "Replace": "#$0052",
+                "Comment": "জ"
+            },
+            "A_Jh": {
+                "Unicode": "#$099D",
+                "Replace": "#$0053",
+                "Comment": "ঝ"
+            },
+            "A_NYA": {
+                "Unicode": "#$099E",
+                "Replace": "#$0054",
+                "Comment": "ঞ"
+            },
+            "A_Tt": {
+                "Unicode": "#$099F",
+                "Replace": "#$0055",
+                "Comment": "ট"
+            },
+            "A_Tth": {
+                "Unicode": "#$09A0",
+                "Replace": "#$0056",
+                "Comment": "ঠ"
+            },
+            "A_Dd": {
+                "Unicode": "#$09A1",
+                "Replace": "#$0057",
+                "Comment": "ড"
+            },
+            "A_Ddh": {
+                "Unicode": "#$09A2",
+                "Replace": "#$0058",
+                "Comment": "ঢ"
+            },
+            "A_Nn": {
+                "Unicode": "#$09A3",
+                "Replace": "#$0059",
+                "Comment": "ণ"
+            },
+            "A_T": {
+                "Unicode": "#$09A4",
+                "Replace": "#$005A",
+                "Comment": "ত"
+            },
+            "A_Th": {
+                "Unicode": "#$09A5",
+                "Replace": "#$005F",
+                "Comment": "থ"
+            },
+            "A_D": {
+                "Unicode": "#$09A6",
+                "Replace": "#$0060",
+                "Comment": "দ"
+            },
+            "A_Dh": {
+                "Unicode": "#$09A7",
+                "Replace": "#$0061",
+                "Comment": "ধ"
+            },
+            "A_N": {
+                "Unicode": "#$09A8",
+                "Replace": "#$0062",
+                "Comment": "ন"
+            },
+            "A_P": {
+                "Unicode": "#$09AA",
+                "Replace": "#$0063",
+                "Comment": "প"
+            },
+            "A_Ph": {
+                "Unicode": "#$09AB",
+                "Replace": "#$0064",
+                "Comment": "ফ"
+            },
+            "A_B": {
+                "Unicode": "#$09AC",
+                "Replace": "#$0065",
+                "Comment": "ব"
+            },
+            "A_Bh": {
+                "Unicode": "#$09AD",
+                "Replace": "#$0066",
+                "Comment": "ভ"
+            },
+            "A_M": {
+                "Unicode": "#$09AE",
+                "Replace": "#$0067",
+                "Comment": "ম"
+            },
+            "A_Z": {
+                "Unicode": "#$09AF",
+                "Replace": "#$0068",
+                "Comment": "য"
+            },
+            "A_R": {
+                "Unicode": "#$09B0",
+                "Replace": "#$0069",
+                "Comment": "র"
+            },
+            "A_L": {
+                "Unicode": "#$09B2",
+                "Replace": "#$006A",
+                "Comment": "ল"
+            },
+            "A_Sh": {
+                "Unicode": "#$09B6",
+                "Replace": "#$006B",
+                "Comment": "শ"
+            },
+            "A_SS": {
+                "Unicode": "#$09B7",
+                "Replace": "#$006C",
+                "Comment": "ষ"
+            },
+            "A_S": {
+                "Unicode": "#$09B8",
+                "Replace": "#$006D",
+                "Comment": "স"
+            },
+            "A_H": {
+                "Unicode": "#$09B9",
+                "Replace": "#$006E",
+                "Comment": "হ"
+            },
+            "A_RR": {
+                "Unicode": "#$09DC",
+                "Replace": "#$006F",
+                "Comment": "ড়"
+            },
+            "A_RRH": {
+                "Unicode": "#$09DD",
+                "Replace": "#$0070",
+                "Comment": "ঢ়"
+            },
+            "A_Y": {
+                "Unicode": "#$09DF",
+                "Replace": "#$0071",
+                "Comment": "য়"
+            },
+            "A_Khandata": {
+                "Unicode": "#$09CE",
+                "Replace": "#$0072",
+                "Comment": "ৎ"
+            },
+            "A_Anushar": {
+                "Unicode": "#$0982",
+                "Replace": "#$0073",
+                "Comment": "ং"
+            },
+            "A_Bisharga": {
+                "Unicode": "#$0983",
+                "Replace": "#$0074",
+                "Comment": "ঃ"
+            },
+            "A_Chandra": {
+                "Unicode": "#$0981",
+                "Replace": "#$0075",
+                "Comment": "ঁ"
+            }
+        },
+        "FullForms": {
+            "A_K_K": {
+                "Unicode": "#$0995#$09CD#$0995",
+                "Replace": "#$00B0",
+                "Comment": "ক্ক"
+            },
+            "A_K_Tt": {
+                "Unicode": "#$0995#$09CD#$099F",
+                "Replace": "#$00B1",
+                "Comment": "ক্ট"
+            },
+            "A_K_Ss_M": {
+                "Unicode": "#$0995#$09CD#$09B8#$09CD#$09AE",
+                "Replace": "#$00B2",
+                "Comment": "ক্স্ম"
+            },
+            "A_K_T": {
+                "Unicode": "#$0995#$09CD#$09A4",
+                "Replace": "#$00B3",
+                "Comment": "ক্ত"
+            },
+            "A_K_M": {
+                "Unicode": "#$0995#$09CD#$09AE",
+                "Replace": "#$00B4",
+                "Comment": "ক্ম"
+            },
+            "A_K_R": {
+                "Unicode": "#$0995#$09CD#$09B0",
+                "Replace": "#$00B5",
+                "Comment": "ক্র"
+            },
+            "A_K_Ss": {
+                "Unicode": "#$0995#$09CD#$09B7",
+                "Replace": "#$00B6",
+                "Comment": "ক্ষ"
+            },
+            "A_K_S": {
+                "Unicode": "#$0995#$09CD#$09B8",
+                "Replace": "#$00B7",
+                "Comment": "ক্স"
+            },
+            "A_G_Ukar": {
+                "Unicode": "#$0997#$09C1",
+                "Replace": "#$00B8",
+                "Comment": "গু"
+            },
+            "A_G_G": {
+                "Unicode": "#$0997#$09CD#$0997",
+                "Replace": "#$00B9",
+                "Comment": "গ্গ"
+            },
+            "A_G_D": {
+                "Unicode": "#$0997#$09CD#$09A6",
+                "Replace": "#$00BA",
+                "Comment": "গ্দ"
+            },
+            "A_G_Dh": {
+                "Unicode": "#$0997#$09CD#$09A7",
+                "Replace": "#$00BB",
+                "Comment": "গ্ধ"
+            },
+            "A_NGA_K": {
+                "Unicode": "#$0999#$09CD#$0995",
+                "Replace": "#$00BC",
+                "Comment": "ঙ্ক"
+            },
+            "A_NGA_G": {
+                "Unicode": "#$0999#$09CD#$0997",
+                "Replace": "#$00BD",
+                "Comment": "ঙ্গ"
+            },
+            "A_J_J": {
+                "Unicode": "#$099C#$09CD#$099C",
+                "Replace": "#$00BE",
+                "Comment": "জ্জ"
+            },
+            "A_J_Jh": {
+                "Unicode": "#$099C#$09CD#$099D",
+                "Replace": "#$00C0",
+                "Comment": "জ্ঝ"
+            },
+            "A_J_NYA": {
+                "Unicode": "#$099C#$09CD#$099E",
+                "Replace": "#$00C1",
+                "Comment": "জ্ঞ"
+            },
+            "A_NYA_C": {
+                "Unicode": "#$099E#$09CD#$099A",
+                "Replace": "#$00C2",
+                "Comment": "ঞ্চ"
+            },
+            "A_NYA_CH": {
+                "Unicode": "#$099E#$09CD#$099B",
+                "Replace": "#$00C3",
+                "Comment": "ঞ্ছ"
+            },
+            "A_NYA_J": {
+                "Unicode": "#$099E#$09CD#$099C",
+                "Replace": "#$00C4",
+                "Comment": "ঞ্জ"
+            },
+            "A_NYA_Jh": {
+                "Unicode": "#$099E#$09CD#$099D",
+                "Replace": "#$00C5",
+                "Comment": "ঞ্ঝ"
+            },
+            "A_Tt_Tt": {
+                "Unicode": "#$099F#$09CD#$099F",
+                "Replace": "#$00C6",
+                "Comment": "ট্ট"
+            },
+            "A_Dd_Dd": {
+                "Unicode": "#$09A1#$09CD#$09A1",
+                "Replace": "#$00C7",
+                "Comment": "ড্ড"
+            },
+            "A_Nn_Tt": {
+                "Unicode": "#$09A3#$09CD#$099F",
+                "Replace": "#$00C8",
+                "Comment": "ণ্ট"
+            },
+            "A_Nn_Tth": {
+                "Unicode": "#$09A3#$09CD#$09A0",
+                "Replace": "#$00C9",
+                "Comment": "ণ্ঠ"
+            },
+            "A_NN_Dd": {
+                "Unicode": "#$09A3#$09CD#$09A1",
+                "Replace": "#$00CA",
+                "Comment": "ণ্ড"
+            },
+            "A_T_T": {
+                "Unicode": "#$09A4#$09CD#$09A4",
+                "Replace": "#$00CB",
+                "Comment": "ত্ত"
+            },
+            "A_T_Th": {
+                "Unicode": "#$09A4#$09CD#$09A5",
+                "Replace": "#$00CC",
+                "Comment": "ত্থ"
+            },
+            "A_T_M": {
+                "Unicode": "#$09A4#$09CD#$09AE",
+                "Replace": "#$00CD",
+                "Comment": "ত্ম"
+            },
+            "A_T_R": {
+                "Unicode": "#$09A4#$09CD#$09B0",
+                "Replace": "#$00CE",
+                "Comment": "ত্র"
+            },
+            "A_D_D": {
+                "Unicode": "#$09A6#$09CD#$09A6",
+                "Replace": "#$00CF",
+                "Comment": "দ্দ"
+            },
+            "A_D_Dh": {
+                "Unicode": "#$09A6#$09CD#$09A7",
+                "Replace": "#$00D7",
+                "Comment": "দ্ধ"
+            },
+            "A_D_B": {
+                "Unicode": "#$09A6#$09CD#$09AC",
+                "Replace": "#$00D8",
+                "Comment": "দ্ব"
+            },
+            "A_D_M": {
+                "Unicode": "#$09A6#$09CD#$09AE",
+                "Replace": "#$00D9",
+                "Comment": "দ্ম"
+            },
+            "A_N_Tth": {
+                "Unicode": "#$09A8#$09CD#$09A5",
+                "Replace": "#$0161#$2019",
+                "Comment": "ন্থ"
+            },
+            "A_N_Dd": {
+                "Unicode": "#$09A8#$09CD#$09A1",
+                "Replace": "#$00DB",
+                "Comment": "ন্ড"
+            },
+            "A_N_Dh": {
+                "Unicode": "#$09A8#$09CD#$09A7",
+                "Replace": "#$00DC",
+                "Comment": "ন্ধ"
+            },
+            "A_N_S": {
+                "Unicode": "#$09A8#$09CD#$09B8",
+                "Replace": "#$00DD",
+                "Comment": "ন্স"
+            },
+            "A_P_Tt": {
+                "Unicode": "#$09AA#$09CD#$099F",
+                "Replace": "#$00DE",
+                "Comment": "প্ট"
+            },
+            "A_P_T": {
+                "Unicode": "#$09AA#$09CD#$09A4",
+                "Replace": "#$00DF",
+                "Comment": "প্ত"
+            },
+            "A_P_P": {
+                "Unicode": "#$09AA#$09CD#$09AA",
+                "Replace": "#$00E0",
+                "Comment": "প্প"
+            },
+            "A_P_S": {
+                "Unicode": "#$09AA#$09CD#$09B8",
+                "Replace": "#$00E1",
+                "Comment": "প্স"
+            },
+            "A_B_J": {
+                "Unicode": "#$09AC#$09CD#$099C",
+                "Replace": "#$00E2",
+                "Comment": "ব্জ"
+            },
+            "A_B_D": {
+                "Unicode": "#$09AC#$09CD#$09A6",
+                "Replace": "#$00E3",
+                "Comment": "ব্দ"
+            },
+            "A_B_Dh": {
+                "Unicode": "#$09AC#$09CD#$09A7",
+                "Replace": "#$00E4",
+                "Comment": "ব্ধ"
+            },
+            "A_Bh_R": {
+                "Unicode": "#$09AD#$09CD#$09B0",
+                "Replace": "#$00E5",
+                "Comment": "ভ্র"
+            },
+            "A_M_N": {
+                "Unicode": "#$09AE#$09CD#$09A8",
+                "Replace": "#$00E6",
+                "Comment": "ম্ন"
+            },
+            "A_M_Ph": {
+                "Unicode": "#$09AE#$09CD#$09AB",
+                "Replace": "#$00E7",
+                "Comment": "ম্ফ"
+            },
+            "A_L_K": {
+                "Unicode": "#$09B2#$09CD#$0995",
+                "Replace": "#$00E9",
+                "Comment": "ল্ক"
+            },
+            "A_L_G": {
+                "Unicode": "#$09B2#$09CD#$0997",
+                "Replace": "#$00EA",
+                "Comment": "ল্গ"
+            },
+            "A_L_Tt": {
+                "Unicode": "#$09B2#$09CD#$099F",
+                "Replace": "#$00EB",
+                "Comment": "ল্ট"
+            },
+            "A_L_Dd": {
+                "Unicode": "#$09B2#$09CD#$09A1",
+                "Replace": "#$00EC",
+                "Comment": "ল্ড"
+            },
+            "A_L_P": {
+                "Unicode": "#$09B2#$09CD#$09AA",
+                "Replace": "#$00ED",
+                "Comment": "ল্প"
+            },
+            "A_L_Ph": {
+                "Unicode": "#$09B2#$09CD#$09AB",
+                "Replace": "#$00EE",
+                "Comment": "ল্ফ"
+            },
+            "A_Sh_UKar": {
+                "Unicode": "#$09B6#$09C1",
+                "Replace": "#$00EF",
+                "Comment": "শু"
+            },
+            "A_Sh_C": {
+                "Unicode": "#$09B6#$09CD#$099A",
+                "Replace": "#$00F0",
+                "Comment": "শ্চ"
+            },
+            "A_Sh_Ch": {
+                "Unicode": "#$09B6#$09CD#$099B",
+                "Replace": "#$00F1",
+                "Comment": "শ্ছ"
+            },
+            "A_Ss_Nn": {
+                "Unicode": "#$09B7#$09CD#$09A3",
+                "Replace": "#$00F2",
+                "Comment": "ষ্ণ"
+            },
+            "A_Ss_Tt": {
+                "Unicode": "#$09B7#$09CD#$099F",
+                "Replace": "#$00F3",
+                "Comment": "ষ্ট"
+            },
+            "A_Ss_Tth": {
+                "Unicode": "#$09B7#$09CD#$09A0",
+                "Replace": "#$00F4",
+                "Comment": "ষ্ঠ"
+            },
+            "A_Ss_Ph": {
+                "Unicode": "#$09B8#$09CD#$09AB",
+                "Replace": "#$00F9",
+                "Comment": "স্ফ"
+            },
+            "A_S_Kh": {
+                "Unicode": "#$09B8#$09CD#$0996",
+                "Replace": "#$00F6",
+                "Comment": "স্খ"
+            },
+            "A_S_Tt": {
+                "Unicode": "#$09B8#$09CD#$099F",
+                "Replace": "#$00F7",
+                "Comment": "স্ট"
+            },
+            "A_S_N": {
+                "Unicode": "#$09B8#$09CD#$09A8",
+                "Replace": "#$00F8",
+                "Comment": "স্ন"
+            },
+            "A_S_Ph": {
+                "Unicode": "#$09B8#$09CD#$09AB",
+                "Replace": "#$00F9",
+                "Comment": "স্ফ"
+            },
+            "A_H_UKar": {
+                "Unicode": "#$09B9#$09C1",
+                "Replace": "#$00FB",
+                "Comment": "হু"
+            },
+            "A_H_RRIKar": {
+                "Unicode": "#$09B9#$09C3",
+                "Replace": "#$00FC",
+                "Comment": "হৃ"
+            },
+            "A_H_N": {
+                "Unicode": "#$09B9#$09CD#$09A8",
+                "Replace": "#$00FD",
+                "Comment": "হ্ন"
+            },
+            "A_H_M": {
+                "Unicode": "#$09B9#$09CD#$09AE",
+                "Replace": "#$00FE",
+                "Comment": "হ্ম"
+            },
+            "A_Rr_G": {
+                "Unicode": "#$09DC#$09CD#$0997",
+                "Replace": "#$00FF",
+                "Comment": "ড়্গ"
+            }
+        },
+        "FirstHalfForms": {
+            "A_Reph": {
+                "Replace": "#$00A9",
+                "Comment": "্র (র-এর রেফ)"
+            },
+            "A_M_1H": {
+                "Replace": "#$00A4",
+                "Comment": "ম-এর প্রথম খন্ড"
+            },
+            "A_Ss_1H": {
+                "Replace": "#$00AE",
+                "Comment": "ষ-এর প্রথম খন্ড"
+            },
+            "A_S_1H_1": {
+                "Replace": "#$00AF",
+                "Comment": "স-এর প্রথম খন্ড ১"
+            },
+            "A_N_1H_1": {
+                "Replace": "#$0161",
+                "Comment": "ন-এর প্রথম খন্ড ১"
+            },
+            "A_S_1H_2": {
+                "Replace": "#$02C9",
+                "Comment": "স-এর প্রথম খন্ড ২"
+            },
+            "A_D_1H_1": {
+                "Replace": "#$02DC",
+                "Comment": "দ-এর প্রথম খন্ড ১"
+            },
+            "A_C_1H": {
+                "Replace": "#$201D",
+                "Comment": "চ-এর প্রথম খন্ড"
+            },
+            "A_NGA_1H": {
+                "Replace": "#$2022",
+                "Comment": "ঙ-এর প্রথম খন্ড"
+            },
+            "A_N_1H_2": {
+                "Replace": "#$203A",
+                "Comment": "ন-এর প্রথম খন্ড ২"
+            },
+            "A_D_1H_2": {
+                "Replace": "#$2122",
+                "Comment": "দ-এর প্রথম খন্ড ২"
+            }
+        },
+        "SecondHalfForms": {
+            "A_B_2H_1": {
+                "Replace": "#$005E",
+                "Comment": "ব-এর দ্বিতীয় খন্ড ১"
+            },
+            "A_B_2H_2": {
+                "Replace": "#$00A1",
+                "Comment": "ব-এর দ্বিতীয় খন্ড ২"
+            },
+            "A_BH_2H": {
+                "Replace": "#$00A2",
+                "Comment": "ভ-এর দ্বিতীয় খন্ড"
+            },
+            "A_BH_R_2H": {
+                "Replace": "#$00A3",
+                "Comment": "ভ্র-এর দ্বিতীয় খন্ড"
+            },
+            "A_M_2H_1": {
+                "Replace": "#$00A5",
+                "Comment": "ম-এর দ্বিতীয় খন্ড ১"
+            },
+            "A_B_2H_3": {
+                "Replace": "#$00A6",
+                "Comment": "ব-এর দ্বিতীয় খন্ড ৩"
+            },
+            "A_M_2H_2": {
+                "Replace": "#$00A7",
+                "Comment": "ম-এর দ্বিতীয় খন্ড ২"
+            },
+            "A_ZFola": {
+                "Replace": "#$00A8",
+                "Comment": "য-ফলা"
+            },
+            "A_RFola_1": {
+                "Replace": "#$00AA",
+                "Comment": "র-ফলা ১"
+            },
+            "A_RFola_2": {
+                "Replace": "#$00AB",
+                "Comment": "র-ফলা ২"
+            },
+            "A_L_2H_1": {
+                "Replace": "#$00AC",
+                "Comment": "ল-এর দ্বিতীয় খন্ড ১"
+            },
+            "A_L_2H_2": {
+                "Replace": "#$00AD",
+                "Comment": "ল-এর দ্বিতীয় খন্ড ২"
+            },
+            "A_T_R_2H": {
+                "Replace": "#$00BF",
+                "Comment": "ত্র-এর দ্বিতীয় খন্ড"
+            },
+            "A_RFola_3": {
+                "Replace": "#$00D6",
+                "Comment": "র-ফলা ৩"
+            },
+            "A_Nn_2H_1": {
+                "Replace": "#$00E8",
+                "Comment": "ণ-এর দ্বিতীয় খন্ড ১"
+            },
+            "A_K_R_2H": {
+                "Replace": "#$0152",
+                "Comment": "ক্র-এর দ্বিতীয় খন্ড"
+            },
+            "A_Nn_2H_2": {
+                "Unicode": "#$09A8",
+                "Replace": "#$0153",
+                "Comment": "ন-এর দ্বিতীয় খন্ড"
+            },
+            "A_B_2H_4": {
+                "Replace": "#$0178",
+                "Comment": "ব-এর দ্বিতীয় খন্ড ৪"
+            },
+            "A_T_2H": {
+                "Replace": "#$2014",
+                "Comment": "ত-এর দ্বিতীয় খন্ড"
+            },
+            "A_T_UKar_2H": {
+                "Replace": "#$2018",
+                "Comment": "তু-এর দ্বিতীয় খন্ড"
+            },
+            "A_Th_2H": {
+                "Replace": "#$2019",
+                "Comment": "থ-এর দ্বিতীয় খন্ড"
+            },
+            "A_K_2H": {
+                "Replace": "#$2039",
+                "Comment": "ক-এর দ্বিতীয় খন্ড"
+            },
+            "A_L_2H_3": {
+                "Replace": "#$2212",
+                "Comment": "ল-এর দ্বিতীয় খন্ড ৩"
+            }
+        }
+    },
+    "FullFormReplacements": [
+        {
+            "Unicode": "#$002F#$003C#$003C",
+            "Replace": "#$201C",
+            "Comment": "QuotedblLeft"
+        },
+        {
+            "Unicode": "#$002F#$003E#$003E",
+            "Replace": "#$CA",
+            "Comment": "QuotedblRight"
+        },
+        {
+            "Unicode": "#$099A#$09CD#$09AC",
+            "Replace": "#$0050#$00A1",
+            "Comment": "চ্ব → P¡"
+        },
+        {
+            "Unicode": "#$0997#$09CD#$09A3",
+            "Replace": "#$004D#$0026#$0059",
+            "Comment": "গ্ণ"
+        },
+        {
+            "Unicode": "#$09A4#$09CD#$09AE",
+            "Replace": "#$005A#$00A5",
+            "Comment": "ত্ম → Z¥"
+        },
+        {
+            "Unicode": "#$09A6#$09CD#$09A6#$09CD#$09AC",
+            "Replace": "#$00CF#$00A1",
+            "Comment": "দ্দ্ব → Ï¡"
+        },
+        {
+            "Unicode": "#$09A8#$09CD#$09A0",
+            "Replace": "#$00DA",
+            "Comment": "ন্ঠ → Ú"
+        },
+        {
+            "Unicode": "#$09A8#$09CD#$09A4#$09CD#$09B0",
+            "Replace": "#$0161#$00BF",
+            "Comment": "ন্ত্র → š¿"
+        },
+        {
+            "Unicode": "#$09A6#$09CD#$09AD#$09CD#$09B0",
+            "Replace": "#$2122#$00A3",
+            "Comment": "দ্ভ্র → ™£"
+        },
+        {
+            "Unicode": "#$0995#$09CD#$09B7#$09CD#$09A8",
+            "Replace": "#$00B6#$0026#$0062",
+            "Comment": "ক্ষ্ন"
+        },
+        {
+            "Unicode": "#$09AC#$09CD#$099C#$09C1",
+            "Replace": "#$00E2#$0079",
+            "Comment": "ব্জু → ây"
+        },
+        {
+            "Unicode": "#$09AC#$09CD#$099C#$09C2",
+            "Replace": "#$00E2#$007E",
+            "Comment": "ব্জূ → â~"
+        },
+        {
+            "Unicode": "#$09AE#$09CD#$09B2",
+            "Replace": "#$00A4#$00AD",
+            "Comment": "ম্ল → ¤ø"
+        },
+        {
+            "Unicode": "#$09B2#$09CD#$09AC",
+            "Replace": "#$006A#$00A6",
+            "Comment": "ল্ব → j¦"
+        },
+        {
+            "Unicode": "স্প্ল",
+            "Replace": "#$AF#$FA#$AD",
+            "Comment": "স্প্ল"
+        },
+        {
+            "Unicode": "#$09B8#$09CD#$09AA",
+            "Replace": "#$00AF#$00FA",
+            "Comment": "স্প"
+        },
+        {
+            "Unicode": "#$09AE#$09CD#$09AA",
+            "Replace": "#$00A4#$00FA",
+            "Comment": "ম্প"
+        },
+        {
+            "Unicode": "#$09B8#$09CD#$09B2",
+            "Replace": "#$006D#$00AD",
+            "Comment": "স্ল → ¯ø"
+        },
+        {
+            "Unicode": "#$09B9#$09CD#$09B2",
+            "Replace": "#$006E#$00AC",
+            "Comment": "হ্ল → n¬"
+        },
+        {
+            "Unicode": "#$09B7#$09CD#$0995#$09CD#$09B0",
+            "Replace": "#$00AE#$0152",
+            "Comment": "ষ্ক্র → ®Œ"
+        },
+        {
+            "Unicode": "#$09B8#$09CD#$0995#$09CD#$09B0",
+            "Replace": "#$00AF#$0152",
+            "Comment": "স্ক্র → ¯Œ"
+        },
+        {
+            "Unicode": "#$0995#$09CD#$09A8",
+            "Replace": "#$004B#$0153",
+            "Comment": "ক্ন → Kœ"
+        },
+        {
+            "Unicode": "#$09B8#$09CD#$09A4#$09CD#$09B0",
+            "Replace": "#$00AF#$00BF",
+            "Comment": "স্ত্র → ¯¿"
+        },
+        {
+            "Unicode": "#$09A3#$09CD#$09A3",
+            "Replace": "#$0059#$0153",
+            "Comment": "ণ্ণ → Yœ"
+        },
+        {
+            "Unicode": "#$09AC#$09CD#$09A7#$09C1",
+            "Replace": "#$00E4#$007A",
+            "Comment": "ব্ধু"
+        },
+        {
+            "Unicode": "#$09AC#$09CD#$09A7#$09C2",
+            "Replace": "#$00E4#$201A",
+            "Comment": "ব্ধূ"
+        },
+        {
+            "Unicode": "#$09AC#$09CD#$09A7#$09C3",
+            "Replace": "#$00E4#$2026",
+            "Comment": "ব্ধৃ"
+        },
+        {
+            "Unicode": "#$09B6#$09CD#$09B2#$09C1",
+            "Replace": "#$006B#$00AD#$0079",
+            "Comment": "শ্লু"
+        },
+        {
+            "Unicode": "#$09B6#$09CD#$09B2#$09C2",
+            "Replace": "#$006B#$00AD#$007E",
+            "Comment": "শ্লূ"
+        },
+        {
+            "Unicode": "#$09AB#$09CD#$09B2#$09C1",
+            "Replace": "#$0064#$00AC#$007A",
+            "Comment": "ফ্লু → d¬z"
+        },
+        {
+            "Unicode": "#$09B7#$09CD#$09AB",
+            "Replace": "#$00F5",
+            "Comment": "ষ্ফ → õ"
+        },
+        {
+            "Unicode": "#$09B8#$09CD#$09A8",
+            "Replace": "#$00F8",
+            "Comment": "স্ন"
+        },
+        {
+            "Unicode": "#$09A8#$09CD#$09A4#$09CD#$09B0#$09C1",
+            "Replace": "#$0161#$00BF#$0079",
+            "Comment": "ন্ত্রু → š¿y"
+        },
+        {
+            "Unicode": "#$09A4#$09CD#$09A4#$09C1",
+            "Replace": "#$00CB#$007A",
+            "Comment": "ত্তু"
+        },
+        {
+            "Unicode": "#$09AE#$09CD#$09AD",
+            "Replace": "#$00A4#$00A2",
+            "Comment": "ম্ভ"
+        },
+        {
+            "Unicode": "#$09AE#$09CD#$09AD#$09CD#$09B0",
+            "Replace": "#$00A4#$00A3",
+            "Comment": "ম্ভ্র"
+        },
+        {
+            "Unicode": "#$09B9#$09CD#$09A3",
+            "Replace": "#$006E#$0026#$0059",
+            "Comment": "হ্ণ → n&Y"
+        },
+        {
+            "Unicode": "#$09B7#$09CD#$09AA",
+            "Replace": "#$00AE#$00FA",
+            "Comment": "ষ্প"
+        },
+        {
+            "Unicode": "#$0997#$09CD#$09A8",
+            "Replace": "#$004D#$0153",
+            "Comment": "গ্ন"
+        },
+        {
+            "Unicode": "#$0998#$09CD#$09A8",
+            "Replace": "#$004E#$0153",
+            "Comment": "ঘ্ন"
+        },
+        {
+            "Unicode": "#$0999#$09CD#$0995#$09CD#$09B7",
+            "Replace": "#$2022#$00B6",
+            "Comment": "ঙ্ক্ষ"
+        },
+        {
+            "Unicode": "#$09A4#$09CD#$09A8",
+            "Replace": "#$005A#$0153",
+            "Comment": "ত্ন"
+        },
+        {
+            "Unicode": "#$09A7#$09CD#$09A8",
+            "Replace": "#$0061#$0153",
+            "Comment": "ধ্ন"
+        },
+        {
+            "Unicode": "#$09A7#$09CD#$09A3",
+            "Replace": "#$0061#$0026#$0059",
+            "Comment": "ধ্ণ"
+        },
+        {
+            "Unicode": "#$09A8#$09CD#$09A3",
+            "Replace": "#$0062#$0026#$0059",
+            "Comment": "ন্ণ → b&Y"
+        },
+        {
+            "Unicode": "#$09AA#$09CD#$09A3",
+            "Replace": "#$0063#$0026#$0059",
+            "Comment": "প্ণ → c&Y"
+        },
+        {
+            "Unicode": "#$0995#$09CD#$09A3",
+            "Replace": "#$004B#$0026#$0059",
+            "Comment": "ক্ণ → K&Y"
+        },
+        {
+            "Unicode": "#$09DC#$09CD#$0997",
+            "Replace": "#$00FF",
+            "Comment": "ড়্গ"
+        }
+    ],
+    "ConjunctForms": [
+        {
+            "Unicode": "#$0995#$09CD#$09B7#$09CD#$09AE",
+            "Replace": "#$00B2",
+            "Comment": "ক্ষ্ম"
+        },
+        {
+            "Unicode": "#$0995#$09CD#$09A4#$09CD#$09AC",
+            "Replace": "#$00B3#$00A1",
+            "Comment": "ক্ত্ব"
+        },
+        {
+            "Unicode": "#$0995#$09CD#$09AC",
+            "Replace": "#$004B#$00A1",
+            "Comment": "ক্ব"
+        },
+        {
+            "Unicode": "#$09B8#$09CD#$0995#$09CD#$09B2",
+            "Replace": "#$00AF#$2039#$00AC",
+            "Comment": "স্ক্ল"
+        },
+        {
+            "Unicode": "#$0995#$09CD#$09B2",
+            "Replace": "#$004B#$00AC",
+            "Comment": "ক্ল"
+        },
+        {
+            "Unicode": "#$0995#$09CD#$09A8",
+            "Replace": "#$004B#$00E8",
+            "Comment": "ক্ন"
+        },
+        {
+            "Unicode": "#$0995#$09CD#$09B7#$09CD#$09A3",
+            "Replace": "#$00B6#$00E8",
+            "Comment": "ক্ষ্ণ"
+        },
+        {
+            "Unicode": "#$0995#$09CD#$09B7#$09CD#$09AC",
+            "Replace": "#$00B6#$00A1",
+            "Comment": "ক্ষ্ব"
+        },
+        {
+            "Unicode": "#$0996#$09CD#$09AC",
+            "Replace": "#$004C#$00A1",
+            "Comment": "খ্ব"
+        },
+        {
+            "Unicode": "#$0997#$09CD#$09AC",
+            "Replace": "#$004D#$00A6",
+            "Comment": "গ্ব"
+        },
+        {
+            "Unicode": "#$0997#$09CD#$09AE",
+            "Replace": "#$004D#$00A5",
+            "Comment": "গ্ম"
+        },
+        {
+            "Unicode": "#$0997#$09CD#$09B2",
+            "Replace": "#$004D#$00AD",
+            "Comment": "গ্ল"
+        },
+        {
+            "Unicode": "#$0998#$09CD#$09AC",
+            "Replace": "#$004E#$00A1",
+            "Comment": "ঘ্ব"
+        },
+        {
+            "Unicode": "#$0999#$09CD#$09AE",
+            "Replace": "#$2022#$0067",
+            "Comment": "ঙ্ম"
+        },
+        {
+            "Unicode": "#$0999#$09CD#$0996",
+            "Replace": "#$2022#$004C",
+            "Comment": "ঙ্খ"
+        },
+        {
+            "Unicode": "#$0999#$09CD#$0998",
+            "Replace": "#$2022#$004E",
+            "Comment": "ঙ্ঘ"
+        },
+        {
+            "Unicode": "#$099A#$09CD#$099B#$09CD#$09AC",
+            "Replace": "#$201D#$0051#$00A1",
+            "Comment": "চ্ছ্ব"
+        },
+        {
+            "Unicode": "#$099A#$09CD#$099A",
+            "Replace": "#$201D#$0050",
+            "Comment": "চ্চ"
+        },
+        {
+            "Unicode": "#$099A#$09CD#$099B",
+            "Replace": "#$201D#$0051",
+            "Comment": "চ্ছ"
+        },
+        {
+            "Unicode": "#$099B#$09CD#$09AC",
+            "Replace": "#$0051#$00A1",
+            "Comment": "ছ্ব"
+        },
+        {
+            "Unicode": "#$099A#$09CD#$099E",
+            "Replace": "#$201D#$0054",
+            "Comment": "চ্ঞ"
+        },
+        {
+            "Unicode": "#$099C#$09CD#$099C#$09CD#$09AC",
+            "Replace": "#$00BE#$00A1",
+            "Comment": "জ্জ্ব"
+        },
+        {
+            "Unicode": "#$099C#$09CD#$09AC",
+            "Replace": "#$0052#$00A1",
+            "Comment": "জ্ব"
+        },
+        {
+            "Unicode": "#$099F#$09CD#$09AC",
+            "Replace": "#$0055#$00A1",
+            "Comment": "ট্ব"
+        },
+        {
+            "Unicode": "#$099F#$09CD#$09AE",
+            "Replace": "#$0055#$00A5",
+            "Comment": "ট্ম"
+        },
+        {
+            "Unicode": "#$09A3#$09CD#$09A2",
+            "Replace": "#$2212",
+            "Comment": "ণ্ঢ"
+        },
+        {
+            "Unicode": "#$09A3#$09CD#$09AE",
+            "Replace": "#$0059#$00A5",
+            "Comment": "ণ্ম"
+        },
+        {
+            "Unicode": "#$09A8#$09CD#$09A4#$09C1",
+            "Replace": "#$0161#$2018",
+            "Comment": "ন্তু"
+        },
+        {
+            "Unicode": "#$09A3#$09CD#$09AC",
+            "Replace": "#$0059#$005E",
+            "Comment": "ণ্ব"
+        },
+        {
+            "Unicode": "#$09A4#$09CD#$09A4#$09CD#$09AC",
+            "Replace": "#$00CB#$00A1",
+            "Comment": "ত্ত্ব"
+        },
+        {
+            "Unicode": "#$09A4#$09CD#$09AE",
+            "Replace": "#$00CD",
+            "Comment": "ত্ম"
+        },
+        {
+            "Unicode": "#$09A4#$09CD#$09B2",
+            "Replace": "#$005A#$00AC",
+            "Comment": "ত্ল"
+        },
+        {
+            "Unicode": "#$09A8#$09CD#$09A4#$09CD#$09AC",
+            "Replace": "#$0161#$2014#$00A1",
+            "Comment": "ন্ত্ব"
+        },
+        {
+            "Unicode": "#$09B8#$09CD#$09A4#$09CD#$09AC",
+            "Replace": "#$00AF#$2014#$00A1",
+            "Comment": "স্ত্ব"
+        },
+        {
+            "Unicode": "#$09A4#$09CD#$09AC",
+            "Replace": "#$005A#$00A1",
+            "Comment": "ত্ব"
+        },
+        {
+            "Unicode": "#$09A5#$09CD#$09B2",
+            "Replace": "#$005F#$00AD",
+            "Comment": "থ্ল"
+        },
+        {
+            "Unicode": "#$09A5#$09CD#$09AC",
+            "Replace": "#$005F#$00A1",
+            "Comment": "থ্ব"
+        },
+        {
+            "Unicode": "#$09A8#$09CD#$09A6#$09CD#$09AC",
+            "Replace": "#$203A#$00D8",
+            "Comment": "ন্দ্ব"
+        },
+        {
+            "Unicode": "#$09A6#$09CD#$0997",
+            "Replace": "#$02DC#$004D",
+            "Comment": "দ্গ"
+        },
+        {
+            "Unicode": "#$09A6#$09CD#$0998",
+            "Replace": "#$02DC#$004E",
+            "Comment": "দ্ঘ"
+        },
+        {
+            "Unicode": "#$09A6#$09CD#$09A7#$09CD#$09AC",
+            "Replace": "#$00D7#$00A1",
+            "Comment": "দ্ধ্ব"
+        },
+        {
+            "Unicode": "#$09A6#$09CD#$09A8",
+            "Replace": "#$0060#$0153",
+            "Comment": "দ্ন"
+        },
+        {
+            "Unicode": "#$09A6#$09CD#$09AD",
+            "Replace": "#$2122#$00A2",
+            "Comment": "দ্ভ"
+        },
+        {
+            "Unicode": "#$09A7#$09CD#$09AC",
+            "Replace": "#$0061#$0178",
+            "Comment": "ধ্ব"
+        },
+        {
+            "Unicode": "#$09A7#$09CD#$09AE",
+            "Replace": "#$0061#$00A5",
+            "Comment": "ধ্ম"
+        },
+        {
+            "Unicode": "#$09A8#$09CD#$099F",
+            "Replace": "#$203A#$0055",
+            "Comment": "ন্ট"
+        },
+        {
+            "Unicode": "#$09A8#$09CD#$09A4",
+            "Replace": "#$0161#$00CD",
+            "Comment": "ন্ত"
+        },
+        {
+            "Unicode": "#$09A8#$09CD#$09A6",
+            "Replace": "#$203A#$0060",
+            "Comment": "ন্দ"
+        },
+        {
+            "Unicode": "#$09A8#$09CD#$09A8",
+            "Replace": "#$0062#$0153",
+            "Comment": "ন্ন"
+        },
+        {
+            "Unicode": "#$09A8#$09CD#$09AC",
+            "Replace": "#$0161#$005E",
+            "Comment": "ন্ব"
+        },
+        {
+            "Unicode": "#$09A8#$09CD#$09AE",
+            "Replace": "#$0062#$00A5",
+            "Comment": "ন্ম"
+        },
+        {
+            "Unicode": "#$09AA#$09CD#$09A8",
+            "Replace": "#$0063#$0153",
+            "Comment": "প্ন"
+        },
+        {
+            "Unicode": "#$09AA#$09CD#$09AE",
+            "Replace": "#$0063#$00A5",
+            "Comment": "প্ম"
+        },
+        {
+            "Unicode": "#$09AA#$09CD#$09B2",
+            "Replace": "#$0063#$00AD",
+            "Comment": "প্ল"
+        },
+        {
+            "Unicode": "#$09AB#$09CD#$09B2",
+            "Replace": "#$0064#$00AC",
+            "Comment": "ফ্ল"
+        },
+        {
+            "Unicode": "#$09AC#$09CD#$09AC",
+            "Replace": "#$0065#$0178",
+            "Comment": "ব্ব"
+        },
+        {
+            "Unicode": "#$09AC#$09CD#$09B2",
+            "Replace": "#$0065#$00AD",
+            "Comment": "ব্ল"
+        },
+        {
+            "Unicode": "#$09AD#$09CD#$09B2",
+            "Replace": "#$0066#$00AC",
+            "Comment": "ভ্ল"
+        },
+        {
+            "Unicode": "#$09B7#$09CD#$09AC",
+            "Replace": "#$00AE#$005E",
+            "Comment": "ষ্ব"
+        },
+        {
+            "Unicode": "#$09AE#$09CD#$09AC",
+            "Replace": "#$00A4#$005E",
+            "Comment": "ম্ব"
+        },
+        {
+            "Unicode": "#$09AE#$09CD#$09AE",
+            "Replace": "#$00A4#$00A7",
+            "Comment": "ম্ম"
+        },
+        {
+            "Unicode": "#$09AE#$09CD#$09B0",
+            "Replace": "#$00A4#$00AA",
+            "Comment": "ম্র"
+        },
+        {
+            "Unicode": "#$09B2#$09CD#$09AE",
+            "Replace": "#$006A#$00A5",
+            "Comment": "ল্ম"
+        },
+        {
+            "Unicode": "#$09B2#$09CD#$09B2",
+            "Replace": "#$006A#$00AD",
+            "Comment": "ল্ল"
+        },
+        {
+            "Unicode": "#$09B6#$09CD#$09A8",
+            "Replace": "#$006B#$0153",
+            "Comment": "শ্ন"
+        },
+        {
+            "Unicode": "#$09B6#$09CD#$09AC",
+            "Replace": "#$006B#$00A6",
+            "Comment": "শ্ব"
+        },
+        {
+            "Unicode": "#$09B6#$09CD#$09AE",
+            "Replace": "#$006B#$00A5",
+            "Comment": "শ্ম"
+        },
+        {
+            "Unicode": "#$09B6#$09CD#$09B2",
+            "Replace": "#$006B#$00AD",
+            "Comment": "শ্ল"
+        },
+        {
+            "Unicode": "#$09B7#$09CD#$0995",
+            "Replace": "#$00AE#$2039",
+            "Comment": "ষ্ক"
+        },
+        {
+            "Unicode": "#$09B7#$09CD#$09AE",
+            "Replace": "#$00AE#$00A7",
+            "Comment": "ষ্ম"
+        },
+        {
+            "Unicode": "#$09B7#$09CD#$09B0",
+            "Replace": "#$00AE#$00AA",
+            "Comment": "ষ্র"
+        },
+        {
+            "Unicode": "#$09B8#$09CD#$0995",
+            "Replace": "#$00AF#$2039",
+            "Comment": "স্ক"
+        },
+        {
+            "Unicode": "#$09B8#$09CD#$09A4",
+            "Replace": "#$00AF#$2014",
+            "Comment": "স্ত"
+        },
+        {
+            "Unicode": "#$09B8#$09CD#$09A4#$09C1",
+            "Replace": "#$00AF#$2018",
+            "Comment": "স্তু"
+        },
+        {
+            "Unicode": "#$09B8#$09CD#$09A5",
+            "Replace": "#$00AF#$2019",
+            "Comment": "স্থ"
+        },
+        {
+            "Unicode": "#$09B8#$09CD#$09AC",
+            "Replace": "#$00AF#$005E",
+            "Comment": "স্ব"
+        },
+        {
+            "Unicode": "#$09B8#$09CD#$09AE",
+            "Replace": "#$00AF#$00A7",
+            "Comment": "স্ম"
+        },
+        {
+            "Unicode": "#$09B8#$09CD#$09B0",
+            "Replace": "#$00AF#$00AA",
+            "Comment": "স্র"
+        },
+        {
+            "Unicode": "#$09B8#$09CD#$09B2",
+            "Replace": "#$00AF#$00AD",
+            "Comment": "স্ল"
+        },
+        {
+            "Unicode": "#$09B9#$09CD#$09A3",
+            "Replace": "#$006E#$00E8",
+            "Comment": "হ্ণ"
+        },
+        {
+            "Unicode": "#$09B9#$09CD#$09AC",
+            "Replace": "#$006E#$0178",
+            "Comment": "হ্ব"
+        }
+    ],
+    "PreReplacements": [
+        {
+            "Unicode": "#$09CD#$0964",
+            "Replace": "#$005C",
+            "Comment": "্। থেকে সরাসরি ব্যাকস্ল্যাশ"
+        },
+        {
+            "Unicode": "#$2018",
+            "Replace": "#{A_StartSingleQuote}",
+            "Comment": "ইউনিকোড ‘ (U+2018) → বিজোড় একক উদ্ধৃতি শুরু"
+        },
+        {
+            "Unicode": "#$2019",
+            "Replace": "#{A_EndSingleQuote}",
+            "Comment": "ইউনিকোড ’ (U+2019) → বিজোড় একক উদ্ধৃতি শেষ"
+        },
+        {
+            "Unicode": "#$201C",
+            "Replace": "#{A_StartDoubleQuote}",
+            "Comment": "ইউনিকোড “ (U+201C) → বিজোড় দ্বিত্ব উদ্ধৃতি শুরু"
+        },
+        {
+            "Unicode": "#$201D",
+            "Replace": "#{A_EndDoubleQuote}",
+            "Comment": "ইউনিকোড ” (U+201D) → বিজোড় দ্বিত্ব উদ্ধৃতি শেষ"
+        }
+    ],
+    "PostReplacements": [
+        {
+            "Unicode": "#$0059#$00A1",
+            "Replace": "#$0059#$00A6",
+            "Comment": "ণ্ব: সংশোধন Y¡ → Y¦"
+        },
+        {
+            "Unicode": "#$0161#$2014#$0079",
+            "Replace": "#$0161#$2018",
+            "Comment": "স্তু"
+        },
+        {
+            "Unicode": "#$00AF#$2014#$0079",
+            "Replace": "#$00AF#$2018",
+            "Comment": "ন্তু"
+        }
+    ],
+    "KarDefaults": {
+        "#$09C7": "#{A_EKar1}",
+        "#$09C8": "#{A_OIKar1}"
+    },
+    "KarMidWord": {
+        "#$09C7": "#{A_EKar2}",
+        "#$09C8": "#{A_OIKar2}"
+    },
+    "VowelRules": {
+        "#$09C1": {
+            "default": "#{A_UKar2}",
+            "mappings": [
+                {
+                    "consonants": "#$09B0",
+                    "value": "#{A_UKar4}",
+                    "alt": "#{A_UKar2}",
+                    "toggle": "backspace",
+                    "process": "pre",
+                    "matchMode": 1
+                },
+                {
+                    "consonants": "BaseLineLeft",
+                    "value": "#{A_UKar1}",
+                    "process": "pre",
+                    "matchMode": 1
+                },
+                {
+                    "consonants": "BaseLineRight",
+                    "value": "#{A_UKar2}",
+                    "process": "pre",
+                    "matchMode": 1
+                },
+                {
+                    "consonants": "Conjunction",
+                    "value": "#{A_UKar2}",
+                    "process": "pre",
+                    "matchMode": 0
+                },
+                {
+                    "consonants": "RuClusters",
+                    "value": "#{A_UKar4}",
+                    "alt": "#{A_UKar2}",
+                    "toggle": "backspace",
+                    "process": "pre",
+                    "matchMode": 0
+                },
+                {
+                    "consonants": "Customkar1",
+                    "value": "#{A_UKar2}",
+                    "process": "pre",
+                    "matchMode": 1
+                },
+                {
+                    "consonants": "RaPhalas1",
+                    "value": "#{A_UKar2}",
+                    "process": "post",
+                    "matchMode": 1
+                },
+                {
+                    "consonants": "RaPhalas2",
+                    "value": "#{A_UKar1}",
+                    "process": "post",
+                    "matchMode": 1
+                },
+                {
+                    "consonants": "RR_RRH",
+                    "value": "#{A_UKar3}",
+                    "process": "pre",
+                    "matchMode": 1
+                }
+            ]
+        },
+        "#$09C2": {
+            "default": "#{A_UUKar2}",
+            "mappings": [
+                {
+                    "consonants": "#$09B0",
+                    "value": "#{A_UUKar3}",
+                    "alt": "#{A_UUKar2}",
+                    "toggle": "backspace",
+                    "process": "pre",
+                    "matchMode": 1
+                },
+                {
+                    "consonants": "BaseLineLeft",
+                    "value": "#{A_UUKar1}",
+                    "process": "pre",
+                    "matchMode": 1
+                },
+                {
+                    "consonants": "BaseLineRight",
+                    "value": "#{A_UUKar2}",
+                    "process": "pre",
+                    "matchMode": 1
+                },
+                {
+                    "consonants": "Conjunction",
+                    "value": "#{A_UUKar2}",
+                    "process": "pre",
+                    "matchMode": 0
+                },
+                {
+                    "consonants": "RuClusters",
+                    "value": "#{A_UUKar3}",
+                    "alt": "#{A_UUKar2}",
+                    "toggle": "backspace",
+                    "process": "pre",
+                    "matchMode": 0
+                },
+                {
+                    "consonants": "Customkar1",
+                    "value": "#{A_UUKar2}",
+                    "process": "pre",
+                    "matchMode": 0
+                },
+                {
+                    "consonants": "RaPhalas1",
+                    "value": "#{A_UUKar2}",
+                    "process": "post",
+                    "matchMode": 1
+                },
+                {
+                    "consonants": "RaPhalas2",
+                    "value": "#{A_UUKar1}",
+                    "process": "post",
+                    "matchMode": 1
+                }
+            ]
+        },
+        "#$09C3": {
+            "default": "#{A_RRIKar2}",
+            "mappings": [
+                {
+                    "consonants": "BaseLineLeft",
+                    "value": "#{A_RRIKar1}",
+                    "process": "pre",
+                    "matchMode": 1
+                },
+                {
+                    "consonants": "BaseLineRight",
+                    "value": "#{A_RRIKar2}",
+                    "process": "pre",
+                    "matchMode": 1
+                },
+                {
+                    "consonants": "Conjunction",
+                    "value": "#{A_RRIKar2}",
+                    "process": "pre",
+                    "matchMode": 0
+                },
+                {
+                    "consonants": "RuClusters",
+                    "value": "#{A_RRIKar2}",
+                    "process": "pre",
+                    "matchMode": 0
+                },
+                {
+                    "consonants": "Customkar1",
+                    "value": "#{A_RRIKar2}",
+                    "process": "pre",
+                    "matchMode": 0
+                },
+                {
+                    "consonants": "RaPhalas1",
+                    "value": "#{A_RRIKar2}",
+                    "process": "post",
+                    "matchMode": 1
+                },
+                {
+                    "consonants": "RaPhalas2",
+                    "value": "#{A_RRIKar1}",
+                    "process": "post",
+                    "matchMode": 1
+                }
+            ]
+        }
+    },
+    "RaPhalaGroups": {
+        "RaPhalas1": [
+            "#{A_RFola_1}",
+            "#{A_RFola_3}"
+        ],
+        "RaPhalas2": [
+            "#{A_RFola_2}"
+        ],
+        "Connectors": []
+    },
+    "GroupKarCorrections": [],
+    "ConsonantGroups": {
+        "BelowBaseVariant": [
+            "#$099F#$09CD#$09B0",
+            "#$09A1#$09CD#$09B0",
+            "#$09A2#$09CD#$09B0"
+        ],
+        "Conjunction": [
+            "#$09AC#$09CD#$09B2"
+        ],
+        "Customkar1": [
+            "#$09B8#$09CD#$09A4#$09CD#$09B0",
+            "#$09A8#$09CD#$09A4#$09CD#$09B0",
+            "#$09AE#$09CD#$09BC#$09B0",
+            "#$09AE#$09CD#$09AD#$09CD#$09B0"
+        ],
+        "RuClusters": [
+            "#$0996#$09CD#$09B0",
+            "#$0997#$09CD#$09B0",
+            "#$0998#$09CD#$09B0",
+            "#$09A4#$09CD#$09B0",
+            "#$09A6#$09CD#$09B0",
+            "#$09A7#$09CD#$09B0",
+            "#$09A5#$09CD#$09B0",
+            "#$09A8#$09CD#$09B0",
+            "#$09AA#$09CD#$09B0",
+            "#$09AC#$09CD#$09B0",
+            "#$09AD#$09CD#$09B0",
+            "#$09AE#$09CD#$09B0",
+            "#$09B6#$09CD#$09B0",
+            "#$09B7#$09CD#$09B0",
+            "#$09B8#$09CD#$09B0",
+            "#$09B9#$09CD#$09B0",
+            "#$09A8#$09CD#$09A6#$09CD#$09B0"
+        ],
+        "BaseLineLeft": [
+            "#$0995",
+            "#$0999",
+            "#$099A",
+            "#$099B",
+            "#$099D",
+            "#$099E",
+            "#$099F",
+            "#$09A0",
+            "#$09A1",
+            "#$09A2",
+            "#$09A4",
+            "#$09AB",
+            "#$09AD",
+            "#$0995#$09CD#$0995",
+            "#$0995#$09CD#$09B0",
+            "#$0995#$09CD#$09A4",
+            "#$0995#$09CD#$09B2",
+            "#$0995#$09CD#$09B7",
+            "#$09B8#$09CD#$0995",
+            "#$09B7#$09CD#$09A3",
+            "#$09B7#$09CD#$09AB",
+            "#$09B9#$09CD#$09AE",
+            "#$099E#$09CD#$099A",
+            "#$09B8#$09CD#$099F"
+        ],
+        "BaseLineRight": [
+            "#$0996",
+            "#$0997",
+            "#$0998",
+            "#$099C",
+            "#$09A3",
+            "#$09A5",
+            "#$09A6",
+            "#$09A7",
+            "#$09A8",
+            "#$09AA",
+            "#$09AB",
+            "#$09AC",
+            "#$09AD",
+            "#$09AE",
+            "#$09AF",
+            "#$09B0",
+            "#$09B2",
+            "#$09B6",
+            "#$09B7",
+            "#$09B8",
+            "#$09B9",
+            "#$09DF",
+            "#{A_K_Ss_M}",
+            "#{A_K_M}",
+            "#{A_K_Ss}",
+            "#{A_K_S}",
+            "#{A_G_G}",
+            "#{A_G_D}",
+            "#{A_G_Dh}",
+            "#{A_NGA_G}",
+            "#{A_J_J}",
+            "#{A_J_Jh}",
+            "#{A_J_NYA}",
+            "#{A_NYA_C}",
+            "#{A_NYA_CH}",
+            "#{A_NYA_J}",
+            "#{A_NYA_Jh}",
+            "#{A_T_Th}",
+            "#{A_T_M}",
+            "#{A_D_D}",
+            "#{A_D_Dh}",
+            "#{A_D_B}",
+            "#{A_D_M}",
+            "#{A_N_Tth}",
+            "#{A_N_Dh}",
+            "#{A_N_S}",
+            "#{A_P_P}",
+            "#{A_P_S}",
+            "#{A_B_D}",
+            "#{A_B_Dh}",
+            "#{A_Bh_R}",
+            "#{A_M_N}",
+            "#{A_L_G}",
+            "#{A_L_P}",
+            "#{A_Ss_Nn}",
+            "#{A_S_Kh}",
+            "#{A_S_N}",
+            "#{A_H_N}",
+            "#{A_H_M}",
+            "#{A_Rr_G}",
+            "#$0999#$09CD#$0997",
+            "#$09AE#$09CD#$09AC",
+            "#$0997#$09CD#$09B2",
+            "#$09B2#$09CD#$0997",
+            "#$09B2#$09CD#$09AA"
+        ],
+        "RR_RRH": [
+            "#$09DC",
+            "#$09DD"
+        ],
+        "Rfola3": [
+            "#$09AA",
+            "#$0997",
+            "#$09B6"
+        ],
+        "TKContext": [
+            "#$0995",
+            "#$09A4"
+        ],
+        "Rfola2Group": [
+            "#{A_NGA_K}",
+            "#{A_N_Dh}",
+            "#{A_M_Ph}",
+            "#{A_L_Ph}",
+            "#{A_K_Ss}",
+            "#$09AB",
+            "#{A_K_T}",
+            "#$09B9"
+        ],
+        "ConnectorsSwapGroup": [],
+        "ConnectorsKeepGroup": []
+    },
+    "RfolaRules": [
+        {
+            "consonants": "Rfola3",
+            "value": "#{A_RFola_3}",
+            "replaceLen": 2
+        },
+        {
+            "consonants": "Rfola2Group",
+            "value": "#{A_RFola_2}",
+            "replaceLen": 2
+        },
+        {
+            "consonants": "default",
+            "value": "#{A_RFola_1}",
+            "replaceLen": 2
+        }
+    ],
+    "KarCorrections": [
+        {
+            "char": "#{A_RR}",
+            "from": "#{A_UUKar1}",
+            "to": "#{A_UUKar2}",
+            "Comment": "ড় + ঊকার ১ → ২"
+        },
+        {
+            "char": "#{A_RRH}",
+            "from": "#{A_UUKar1}",
+            "to": "#{A_UUKar2}",
+            "Comment": "ঢ় + ঊকার ১ → ২"
+        }
+    ]
+}
